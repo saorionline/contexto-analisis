@@ -1,0 +1,3 @@
+# Base SQLite generada por el notebook (se reconstruye desde los CSV)
+*.db
+.ipynb_checkpoints/
