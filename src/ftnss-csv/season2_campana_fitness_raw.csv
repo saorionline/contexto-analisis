@@ -1,0 +1,133 @@
+id_entidad,sector,sprint,fecha_inicio,fecha_fin,ciudad,pais,tipo_conversion,inversion_pauta,impresiones,alcance,clics,conversiones,ticket_promedio,costo_variable_pct,meses_retencion_promedio
+F001,fitness,S01,2026-01-01,2026-01-07,Miami,USA,membresía mensual,5669.54,90902,60693,2370,212,101.39,0.35,8.1
+F002,fitness,S01,2026-01-01,2026-01-07,Nueva York,USA,membresía mensual,2833.84,55555,30617,863,60,124.27,0.36,4.5
+F003,fitness,S01,2026-01-01,2026-01-07,Bogotá,Colombia,plan de sesiones,6809.42,90891,70008,2362,180,74.50,0.28,6.9
+F004,fitness,S01,2026-01-01,2026-01-07,Houston,USA,membresía mensual,4542.90,61765,38013,1592,86,55.94,0.37,7.2
+F005,fitness,S01,2026-01-01,2026-01-07,Miami,USA,suscripción a programa online,3924.55,62199,40500,1198,53,102.59,0.40,2.3
+F006,fitness,S01,2026-01-01,2026-01-07,Orlando,USA,membresía mensual,6392.19,95295,71190,2479,153,56.57,0.34,4.3
+F007,fitness,S01,2026-01-01,2026-01-07,Bogotá,Colombia,membresía mensual,5989.67,117587,69328,2663,69,122.40,0.40,3.1
+F008,fitness,S01,2026-01-01,2026-01-07,Nueva York,USA,membresía mensual,2409.82,26628,15105,524,29,73.42,0.26,5.2
+F009,fitness,S01,2026-01-01,2026-01-07,Houston,USA,paquete de clases,3213.24,41922,24621,1062,76,45.45,0.38,6.7
+F010,fitness,S01,2026-01-01,2026-01-07,Miami,USA,suscripción a programa online,4288.20,72850,48078,981,55,111.30,0.35,2.5
+F001,fitness,S02,2026-01-08,2026-01-14,Miami,USA,membresía mensual,5831.06,88696,59062,2171,182,100.94,0.35,8.7
+F002,fitness,S02,2026-01-08,2026-01-14,Nueva York,USA,membresía mensual,2673.34,54039,30412,863,54,118.37,0.36,4.8
+F003,fitness,S02,2026-01-08,2026-01-14,Bogotá,Colombia,plan de sesiones,6386.54,84439,62778,2385,161,80.99,0.28,6.8
+F004,fitness,S02,2026-01-08,2026-01-14,Houston,USA,membresía mensual,4324.28,55012,34838,1336,78,51.74,0.37,7.4
+F005,fitness,S02,2026-01-08,2026-01-14,Miami,USA,suscripción a programa online,3827.07,64523,45475,1321,49,107.02,0.40,2.3
+F006,fitness,S02,2026-01-08,2026-01-14,Orlando,USA,membresía mensual,5933.82,96369,70505,2503,150,58.44,0.34,4.1
+F007,fitness,S02,2026-01-08,2026-01-14,Bogotá,Colombia,membresía mensual,6490.60,132876,79058,3146,88,122.34,0.40,3.0
+F008,fitness,S02,2026-01-08,2026-01-14,Nueva York,USA,membresía mensual,2473.30,25636,14258,467,29,78.33,0.26,5.6
+F009,fitness,S02,2026-01-08,2026-01-14,Houston,USA,paquete de clases,3217.17,41318,24769,1027,75,49.39,0.38,6.5
+F010,fitness,S02,2026-01-08,2026-01-14,Miami,USA,suscripción a programa online,4277.74,75263,49553,1033,59,109.43,0.35,2.5
+F001,fitness,S03,2026-01-15,2026-01-21,Miami,USA,membresía mensual,5215.79,89941,60534,2196,141,93.21,0.35,10.7
+F002,fitness,S03,2026-01-15,2026-01-21,Nueva York,USA,membresía mensual,2203.56,45934,25330,716,40,120.18,0.36,5.6
+F003,fitness,S03,2026-01-15,2026-01-21,Bogotá,Colombia,plan de sesiones,5495.25,81862,59903,1973,118,72.80,0.28,8.0
+F004,fitness,S03,2026-01-15,2026-01-21,Houston,USA,membresía mensual,3475.95,51396,32917,1173,51,55.25,0.37,9.3
+F005,fitness,S03,2026-01-15,2026-01-21,Miami,USA,suscripción a programa online,3569.46,67734,45744,1254,48,102.14,0.40,3.2
+F006,fitness,S03,2026-01-15,2026-01-21,Orlando,USA,membresía mensual,5671.46,94597,69438,,114,55.57,0.34,5.2
+F007,fitness,S03,2026-01-15,2026-01-21,Bogotá,Colombia,membresía mensual,5294.20,112986,65045,2422,56,116.30,0.40,4.1
+F008,fitness,S03,2026-01-15,2026-01-21,Nueva York,USA,membresía mensual,2270.10,27963,,433,24,75.86,0.26,6.5
+F009,fitness,S03,2026-01-15,2026-01-21,Houston,USA,paquete de clases,3023.27,43336,25204,975,64,47.33,0.38,7.4
+F010,fitness,S03,2026-01-15,2026-01-21,Miami,USA,suscripción a programa online,4166.44,85418,57050,1022,55,101.18,0.35,2.8
+F001,fitness,S04,2026-01-22,2026-01-28,Miami,USA,membresía mensual,4506.23,75777,50782,1798,125,93.52,0.35,10.6
+F002,fitness,S04,2026-01-22,2026-01-28,Nueva York,USA,membresía mensual,2307.50,53043,31080,730,36,121.31,0.36,6.5
+F003,fitness,S04,2026-01-22,2026-01-28,Bogotá,Colombia,plan de sesiones,5598.31,83094,59682,2037,128,77.60,0.28,8.1
+F004,fitness,S04,2026-01-22,2026-01-28,Houston,USA,membresía mensual,3632.85,55136,31672,1230,56,53.05,0.37,9.2
+F005,fitness,S04,2026-01-22,2026-01-28,Miami,USA,suscripción a programa online,3210.84,57344,37737,966,34,109.42,0.40,3.1
+F006,fitness,S04,2026-01-22,2026-01-28,Orlando,USA,membresía mensual,5472.35,95978,69523,1940,90,59.79,0.34,5.4
+F007,fitness,S04,2026-01-22,2026-01-28,Bogotá,Colombia,membresía mensual,5462.63,118697,76095,2543,58,111.44,0.40,3.9
+F008,fitness,S04,2026-01-22,2026-01-28,Nueva York,USA,membresía mensual,2197.87,26222,14455,412,23,77.13,0.26,6.6
+F009,fitness,S04,2026-01-22,2026-01-28,Houston,USA,paquete de clases,2997.69,44083,26024,972,55,47.74,0.38,8.7
+F010,fitness,S04,2026-01-22,2026-01-28,Miami,USA,suscripción a programa online,3758.68,74550,53321,812,38,109.18,0.35,2.9
+F001,fitness,S05,2026-01-29,2026-02-04,Miami,USA,membresía mensual,4042.24,75009,52824,1716,111,91.90,0.35,10.8
+F002,fitness,S05,2026-01-29,2026-02-04,Nueva York,USA,membresía mensual,2141.00,52081,30550,693,29,119.45,0.36,7.0
+F003,fitness,S05,2026-01-29,2026-02-04,Bogotá,Colombia,plan de sesiones,4873.35,78469,58280,1758,106,75.15,0.28,8.7
+F004,fitness,S05,2026-01-29,2026-02-04,Houston,USA,membresía mensual,3296.54,52398,31449,1083,45,55.73,0.37,10.6
+F005,fitness,S05,2026-01-29,2026-02-04,Miami,USA,suscripción a programa online,3005.66,56796,40232,1003,33,102.64,0.40,3.3
+F006,fitness,S05,2026-01-29,2026-02-04,Orlando,USA,membresía mensual,5097.62,99485,69037,1943,82,54.78,0.34,5.7
+F007,fitness,S05,2026-01-29,2026-02-04,Bogotá,Colombia,membresía mensual,4873.30,119218,76027,2385,43,109.36,0.40,4.3
+F008,fitness,S05,2026-01-29,2026-02-04,Nueva York,USA,membresía mensual,1783.66,24179,14467,355,16,71.96,0.26,7.2
+F009,fitness,S05,2026-01-29,2026-02-04,Houston,USA,paquete de clases,2648.36,41404,24681,897,55,47.19,0.38,8.9
+F009,fitness,S05,2026-01-29,2026-02-04,Houston,USA,paquete de clases,2648.36,41404,24681,897,55,47.19,0.38,8.9
+F010,fitness,S05,2026-01-29,2026-02-04,Miami,USA,suscripción a programa online,3331.13,69821,47992,825,34,104.61,0.35,3.5
+F001,fitness,S06,2026-02-05,2026-02-11,Miami,USA,membresía mensual,4164.12,79352,54339,1657,98,89.33,0.35,12.0
+,,,,,,,,,,,,,,,
+F002,fitness,S06,2026-02-05,2026-02-11,Nueva York,USA,membresía mensual,1782.74,42136,24748,42557,24,113.39,0.36,7.4
+F003,fitness,S06,2026-02-05,2026-02-11,Bogotá,Colombia,plan de sesiones,4728.00,81035,58593,1533,68,73.53,0.28,9.6
+F004,fitness,S06,2026-02-05,2026-02-11,Houston,USA,membresía mensual,3088.41,49274,30179,889,31,51.19,0.37,11.8
+F005,fitness,S06,2026-02-05,2026-02-11,Miami,USA,suscripción a programa online,2843.99,57479,39966,956,25,104.75,0.40,3.6
+F006,fitness,S06,2026-02-05,2026-02-11,Orlando,USA,membresía mensual,4449.27,88145,62717,1629,74,56.02,0.34,6.6
+F007,fitness,S06,2026-02-05,2026-02-11,Bogotá,Colombia,membresía mensual,4414.92,106893,68074,1887,30,114.51,0.40,4.8
+F008,fitness,S06,2026-02-05,2026-02-11,Nueva York,USA,membresía mensual,1755.40,23791,14184,343,14,73.70,0.26,7.5
+F009,fitness,S06,2026-02-05,2026-02-11,Houston,USA,paquete de clases,2263.15,35659,19765,760,38,43.78,0.38,9.8
+F010,fitness,S06,2026-02-05,2026-02-11,Miami,USA,suscripción a programa online,2995.98,67393,48839,687,25,103.40,0.35,3.3
+F001,fitness,S07,2026-02-12,2026-02-18,Miami,USA,membresía mensual,3909.40,78272,55138,1629,81,98.12,0.35,11.9
+F002,fitness,S07,2026-02-12,2026-02-18,Nueva York,USA,membresía mensual,1924.86,46904,26443,612,25,112.33,0.36,6.7
+F003,fitness,S07,2026-02-12,2026-02-18,Bogotá,Colombia,plan de sesiones,4738.88,82509,57640,1728,83,75.01,0.28,9.9
+F004,fitness,S07,2026-02-12,2026-02-18,Houston,USA,membresía mensual,2989.68,49913,29134,942,37,54.25,0.37,11.5
+F005,fitness,S07,2026-02-12,2026-02-18,Miami,USA,suscripción a programa online,2893.32,57212,40807,927,28,103.10,0.40,3.7
+F006,fitness,S07,2026-02-12,2026-02-18,Orlando,USA,membresía mensual,4693.64,87547,63621,1578,72,52.97,0.34,6.4
+F007,fitness,S07,2026-02-12,2026-02-18,Bogotá,Colombia,membresía mensual,4321.47,103139,60515,1794,29,106.96,0.40,5.0
+F008,fitness,S07,2026-02-12,2026-02-18,Nueva York,USA,membresía mensual,1907.32,25489,14711,379,14,73.88,0.26,7.3
+F009,fitness,S07,2026-02-12,2026-02-18,Houston,USA,paquete de clases,2583.06,40146,23980,744,41,45.06,0.38,8.9
+F010,fitness,S07,2026-02-12,2026-02-18,Miami,USA,suscripción a programa online,3154.04,70429,49791,674,24,98.80,0.35,3.4
+F001,fitness,S08,2026-02-19,2026-02-25,Miami,USA,membresía mensual,4378.31,87600,64926,1754,96,93.70,0.35,12.4
+F002,fitness,S08,2026-02-19,2026-02-25,Nueva York,USA,membresía mensual,1919.09,45970,26827,547,25,113.53,0.36,7.2
+F003,fitness,S08,2026-02-19,2026-02-25,Bogotá,Colombia,plan de sesiones,4966.73,89203,67715,1894,100,70.68,0.28,9.8
+F004,fitness,S08,2026-02-19,2026-02-25,Houston,USA,membresía mensual,3102.60,53753,32949,906,32,51.83,0.37,11.3
+F005,fitness,S08,2026-02-19,2026-02-25,Miami,USA,suscripción a programa online,2699.76,56852,40399,950,26,96.41,0.40,3.7
+F006,fitness,S08,2026-02-19,2026-02-25,Orlando,USA,membresía mensual,4345.89,85497,59612,1683,71,57.22,0.34,6.6
+F007,fitness,S08,2026-02-19,2026-02-25,Bogotá,Colombia,membresía mensual,4504.14,118188,74248,2060,32,110.06,0.40,5.0
+F008,fitness,S08,2026-02-19,2026-02-25,Nueva York,USA,membresía mensual,1757.70,23802,13639,324,14,70.55,0.26,8.0
+F009,fitness,S08,2026-02-19,2026-02-25,Houston,USA,paquete de clases,2358.85,35034,20794,726,39,42.67,0.38,10.1
+F010,fitness,S08,2026-02-19,2026-02-25,Miami,USA,suscripción a programa online,3414.28,76037,54318,834,36,103.37,0.35,3.6
+F001,fitness,S09,2026-02-26,2026-03-04,Miami,USA,membresía mensual,4034.28,77415,57447,1415,69,"92,54",0.35,12.6
+F002,fitness  ,S09,2026-02-26,2026-03-04,Nueva York,USA,membresía mensual,1706.24,41921,24311,540,19,117.52,0.36,7.6
+F003,fitness,S09,2026-02-26,2026-03-04,Bogotá,Colombia,plan de sesiones,4459.53,82802,61118,1455,68,78.27,0.28,10.8
+F004,fitness,S09,2026-02-26,2026-03-04,Houston,USA,membresía mensual,3043.87,51390,29248,942,30,50.39,0.37,11.8
+F005,fitness,S09,2026-02-26,2026-03-04,Miami,USA,suscripción a programa online,2443.06,52359,37057,803,19,102.01,0.40,3.6
+F006,fitness,S09,2026-02-26,2026-03-04,Orlando,USA,membresía mensual,4056.59,82330,58245,1386,55,53.68,0.34,7.1
+F007,fitness,S09,2026-02-26,2026-03-04,Bogotá,Colombia,membresía mensual,3989.81,103117,60060,1699,29,113.30,0.40,4.8
+F008,fitness,S09,2026-02-26,2026-03-04,Nueva York,USA,membresía mensual,1731.92,23624,13375,299,12,73.33,0.26,8.1
+F009,fitness,S09,2026-02-26,2026-03-04,Houston,USA,paquete de clases,2323.45,35981,21683,727,34,44.37,0.38,10.5
+F010,fitness,S09,2026-02-26,2026-03-04,Miami,USA,suscripción a programa online,3258.64,74523,49804,712,27,109.25,0.35,3.8
+F001,fitness,S10,2026-03-05,2026-03-11,Miami,USA,membresía mensual,3377.59,72687,54029,1387,60,96.30,0.35,13.8
+F002,fitness,S10,2026-03-05,2026-03-11,Nueva York,USA,membresía mensual,1655.93,43966,24489,478,18,109.38,0.36,8.0
+F003,fitness,S10,2026-03-05,2026-03-11,Bogotá,Colombia,plan de sesiones,4067.49,75932,56505,1316,57,73.44,0.28,9.7
+F004,fitness,S10,2026-03-05,2026-03-11,Houston,USA,membresía mensual,2610.99,46195,26492,792,21,51.85,0.37,11.9
+F005,fitness,S10,2026-03-05,2026-03-11,Miami,USA,suscripción a programa online,2315.31,50257,32603,724,19,98.77,0.40,3.7
+F006,fitness,S10,2026-03-05,2026-03-11,Orlando,USA,membresía mensual,3927.69,84543,62846,1510,56,56.24,0.34,7.1
+F007,fitness,S10,2026-03-05,2026-03-11,Bogotá,Colombia,membresía mensual,3822.34,98553,63117,1706,26,110.19,0.40,5.5
+F008,fitness,S10,2026-03-05,2026-03-11,Nueva York,USA,membresía mensual,1489.09,22593,12518,278,11,70.08,0.26,8.9
+F009,fitness,S10,2026-03-05,2026-03-11,Houston,USA,paquete de clases,2151.38,35080,19883,630,25,44.37,0.38,10.4
+F010,fitness,S10,2026-03-05,2026-03-11,Miami,USA,suscripción a programa online,3116.06,75197,54436,674,21,108.77,0.35,4.1
+F001,fitness,S11,2026-03-12,2026-03-18,Miami,USA,membresía mensual,3545.27,71231,51265,1311,66,89.92,0.35,12.8
+F002,fitness,S11,2026-03-12,2026-03-18,nueva york,USA,membresía mensual,1638.27,41241,23549,479,17,121.85,0.36,7.3
+F003,fitness,S11,2026-03-12,2026-03-18, Bogotá,Colombia,plan de sesiones,4294.69,76160,55651,1366,53,73.68,0.28,10.9
+F004,fitness,S11,2026-03-12,2026-03-18,Houston,USA,membresía mensual,3015.44,52799,30192,921,27,51.30,0.37,12.5
+F005,fitness,S11,2026-03-12,2026-03-18,Miami,USA,suscripción a programa online,2349.18,50146,35609,783,18,102.82,0.40,3.6
+F006,fitness,S11,2026-03-12,2026-03-18,Orlando,USA,membresía mensual,4229.89,87765,63887,1524,54,57.57,0.34,6.6
+F007,fitness,S11,12/03/2026,2026-03-18,Bogotá,Colombia,membresía mensual,3876.03,103539,59837,1751,24,104.65,0.40,5.2
+F008,fitness,S11,2026-03-12,2026-03-18,Nueva York,USA,membresía mensual,1678.22,24960,13307,342,13,70.31,0.26,8.0
+F009,fitness,S11,2026-03-12,2026-03-18,Houston,USA,paquete de clases,2157.32,35574,19778,678,33,44.40,0.38,9.8
+F010,fitness,S11,2026-03-12,2026-03-18,Miami,USA,suscripción a programa online,2900.71,68841,49396,679,20,108.69,0.35,3.6
+F001,fitness,S12,2026-03-19,2026-03-25,Miami,USA,membresía mensual,3658.54,76147,55603,1413,64,95.18,0.35,12.2
+F002,fitness,S12,2026-03-19,2026-03-25,Nueva York,USA,membresía mensual,1586.02,43613,24698,524,21,109.78,0.36,8.1
+F003,fitness,S12,2026-03-19,2026-03-25,Bogotá,Colombia,plan de sesiones,4019.30,77083,56610,1485,70,76.54,0.28,11.1
+F004,fitness,S12,2026-03-19,2026-03-25,Houston,USA,membresía mensual,2752.44,47850,30640,792,21,53.42,0.37,12.7
+F005,fitness,S12,2026-03-19,2026-03-25,Miami,USA,suscripción a programa online,2366.79,52013,35928,780,17,101.73,0.40,3.9
+F006,fitness,S12,2026-03-19,2026-03-25,Orlando,USA,membresía mensual,4163.25,86341,62478,1388,49,55.51,0.34,7.1
+F007,fitness,S12,2026-03-19,2026-03-25,Bogotá,Colombia,membresía mensual,4316.53,111102,68674,1835,28,107.75,0.40,5.5
+F008,fitness,S12,2026-03-19,2026-03-25,Nueva York,USA,membresía mensual,1708.28,25109,13670,331,11,76.34,0.26,8.6
+F009,fitness,S12,2026-03-19,2026-03-25,Houston,USA,paquete de clases,2272.07,37086,20083,743,30,42.62,0.38,10.5
+F010,fitness,S12,2026-03-19,2026-03-25,Miami,USA,suscripción a programa online,2716.24,62930,40551,572,19,101.57,0.35,3.9
+F001,fitness,S13,2026-03-26,2026-03-31,Miami,USA,membresía mensual,2946.25,61457,44406,1224,65,95.97,0.35,12.6
+F002,fitness,S13,2026-03-26,2026-03-31,Nueva York,USA,membresía mensual,1493.42,40404,22596,463,17,118.93,0.36,7.6
+F003,fitness,S13,2026-03-26,2026-03-31,Bogotá,Colombia,plan de sesiones,3697.77,66823,51104,1307,52,69.65,0.28,10.8
+F004,fitness,S13,2026-03-26,2026-03-31,Houston,USA,membresía mensual,2318.49,40677,24863,666,22,54.02,0.37,12.9
+F005,fitness,S13,2026-03-26,2026-03-31,Miami,USA,suscripción a programa online,2155.81,46591,29983,718,17,96.74,0.40,3.9
+F006,fitness,S13,2026-03-26,2026-03-31,Orlando,USA,membresía mensual,3355.16,71531,50955,1241,41,53.34,0.34,6.7
+F007,fitness,S13,2026-03-26,2026-03-31,Bogotá,Colombia,membresía mensual,3637.52,101132,64130,1515,21,105.81,0.40,5.0
+F008,fitness,S13,2026-03-26,2026-03-31,Nueva York,USA,membresía mensual,1486.52,20758,12475,288,11,76.19,0.26,8.9
+F009,fitness,S13,2026-03-26,2026-03-31,Houston,USA,paquete de clases,1761.44,30281,17009,527,22,43.41,0.38,9.6
+F010,fitness,S13,2026-03-26,2026-03-31,Miami,USA,suscripción a programa online,2596.04,59540,38873,536,18,97.89,0.35,4.1

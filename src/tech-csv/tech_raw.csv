@@ -1,0 +1,14 @@
+id_entidad,nombre,zona,categoria,seguidores_instagram,engagement_rate,url_instagram
+T001,  Nubeflow,Centro,SaaS de gestión,42700,3.8,https://www.instagram.com/nubeflow/
+T002,Cifra Segura,Norte,Ciberseguridad,12500,5.0,https://www.instagram.com/cifrasegura/
+T002,Cifra Segura,Norte,Ciberseguridad,12500,5.0,https://www.instagram.com/cifrasegura/
+T003,Andina Devices,Norte ,Dispositivos,40350,3.1,https://www.instagram.com/andinadevices/
+T004,Lumen Analytics,Poniente, SaaS de datos,44600,3.8,https://www.instagram.com/lumenanalytics/
+T005,Pixel Hogar,Sur,Hogar inteligente,19450,4.2,https://www.instagram.com/pixelhogar/
+T006,AulaBit,Oriente,EdTech,49200,,https://www.instagram.com/aulabit/
+,,,,,,
+T007,Kódigo Pyme,Centro,Software contable,,4.0,https://www.instagram.com/kodigopyme/
+T008,Vector Wear,Sur,Wearables,21400,5.7,https://www.instagram.com/vectorwear/
+T009,Orbe Cloud,Centro,Infraestructura cloud,23500,,https://www.instagram.com/orbecloud/
+T005,Pixel Hogar  ,Sur,Hogar inteligente,19450,4.2,https://www.instagram.com/pixelhogar/
+T010,Tándem CRM,Norte,SaaS de ventas,41150,2.7,https://www.instagram.com/tandemcrm/

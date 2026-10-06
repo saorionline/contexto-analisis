@@ -68,6 +68,15 @@ _Respuesta:_
 | 2026-10-05 | `ciudad`, `pais` y `costo_variable_pct` se mueven a `restaurante` | Dependen solo del restaurante, no del sprint (el ETL lo verifica) | Si el costo variable cambia por sprint, vuelve a `metricas_sprint` |
 | 2026-10-05 | KPIs no se guardan; se calculan en la vista `v_kpis_sprint` | Evitar valores desactualizados al capturar datos reales | `sql/02_vistas.sql` |
 | 2026-10-05 | `zona` queda como columna de `restaurante` | "Centro" de Miami ≠ "Centro" de Bogotá | Revisar al agregar coordenadas |
+| 2026-10-06 | Proyecto **Trisectorial Estacional**: 4 sectores (resto, fitness, retail, tech) × 4 seasons (oct-2025 → sep-2026) | Comparar comportamiento entre mercados con los mismos índices | `src/<sector>-csv/seasonN_campana_<sector>_raw.csv` |
+| 2026-10-06 | Cada season = 3 meses en 13 sprints semanales; el S13 absorbe los días sobrantes (8, 6, 7 u 8 días) | Los trimestres reales tienen 90–92 días | El pipeline debe normalizar por días al comparar sprints |
+| 2026-10-06 | Los archivos crudos traen solo datos capturados; los KPIs los calcula el pipeline | Evitar KPIs desactualizados | — |
+| 2026-10-06 | Llave común `id_entidad` en campañas y catálogos nuevos; `restaurantes_raw.csv` conserva `id_restaurante` | Mismos índices entre sectores sin reescribir el catálogo original | El pipeline mapea `id_restaurante → id_entidad` |
+| 2026-10-06 | En tech, `conversiones` = clientes cerrados; `leads` y `leads_calificados` son etapas previas del embudo | Que ingresos = conversiones × ticket valga igual en todos los sectores | CPL = inversión / leads se calcula aparte |
+| 2026-10-06 | En fitness, `ticket_promedio` = cuota mensual y la rentabilidad real usa LTV = ticket × `meses_retencion_promedio` | Con un solo mes de cuota el ROI sale negativo | Comparar ROI de 1 mes vs. ROI con LTV |
+| 2026-10-06 | Errores sembrados a propósito en todos los archivos, con registro en `src/simulacion/anomalias_sembradas.csv` | Probar el pipeline de limpieza contra una lista de respuestas conocida | 179 anomalías, 11 tipos |
+| 2026-10-06 | Contador `src/registro_tamano.csv` (filas, bytes en disco, bytes en memoria, segundos) | Vigilar el crecimiento y el tiempo de cálculo | — |
+| 2026-10-06 | Sector Marca y `coffee_sales_raw.csv` quedan fuera por ahora | Enfocar el estudio en 4 sectores | Retomar más adelante |
 | | | | |
 
 ## 📝 Notas de sesión
@@ -75,5 +84,9 @@ _Respuesta:_
 ### Sesión 1 · 2026-10-01
 - Estructura del notebook, datasets crudos (CSV + MD) y limpieza base.
 
-### Sesión 2 · pendiente
-- Puente SQL (`sqlite3`), consultas de negocio, export para Tableau.
+### Sesión 2 · 2026-10-05
+- Modelo relacional, carga a SQLite y diseño de consultas Q01–Q05 (en el prototipo).
+
+### Sesión 3 · 2026-10-06
+- Simulador del proyecto Trisectorial Estacional: catálogos y campañas de 4 sectores × 4 seasons.
+- Siguiente: pipeline M1 en `src/modelado/` (Definición → Recopilación → Exploración → Preprocesamiento).

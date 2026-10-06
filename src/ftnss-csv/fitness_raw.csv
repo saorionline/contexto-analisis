@@ -1,0 +1,14 @@
+id_entidad,nombre,zona,categoria,seguidores_instagram,engagement_rate,url_instagram
+F001,  Pulso Gym,Centro,Gimnasio,24000,4.5,https://www.instagram.com/pulsogym/
+F002,Núcleo Funcional,Norte,Crossfit,31800,1.8,https://www.instagram.com/nucleofuncional/
+F002,Núcleo Funcional,Norte,Crossfit,31800,1.8,https://www.instagram.com/nucleofuncional/
+F003,Andes Training,Norte ,Entrenamiento personal,43600,5.8,https://www.instagram.com/andestraining/
+F004,Raíz Yoga Studio,Poniente, Yoga y Pilates,36250,4.2,https://www.instagram.com/raizyogastudio/
+F005,Marea Fit,Sur,Contenido fitness,41800,2.5,https://www.instagram.com/mareafit/
+F006,Ritmo Box,Oriente,Boxeo fitness,28950,,https://www.instagram.com/ritmobox/
+,,,,,,
+F007,Cumbre Pilates,Centro,Yoga y Pilates,,3.1,https://www.instagram.com/cumbrepilates/
+F008,Hierro 24,Centro,Gimnasio,23200,3.1,https://www.instagram.com/hierro24/
+F009,Vatio Cycling,Sur,Ciclismo indoor,41400,,https://www.instagram.com/vatiocycling/
+F005,Marea Fit  ,Sur,Contenido fitness,41800,2.5,https://www.instagram.com/mareafit/
+F010,Coach Alma,Norte,Entrenamiento personal,48250,3.4,https://www.instagram.com/coachalma/

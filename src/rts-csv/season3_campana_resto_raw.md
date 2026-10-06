@@ -1,0 +1,140 @@
+# Season 3 · Campaña restaurantes (raw)
+
+Copia idéntica de `season3_campana_resto_raw.csv`. Datos **simulados** con errores sembrados.
+
+<!-- Formato: cada celda lleva exactamente 1 espacio de relleno a cada lado. Los espacios extra son parte del dato (anomalía intencional). Celda vacía = valor nulo. -->
+
+| id_entidad | sector | sprint | fecha_inicio | fecha_fin | ciudad | pais | tipo_conversion | inversion_pauta | impresiones | alcance | clics | conversiones | ticket_promedio | costo_variable_pct |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| R001 | resto | S01 | 2026-04-01 | 2026-04-07 | Miami | USA | pedido a domicilio | 2355.56 | 39411 | 24460 | 776 | 41 | 313.69 | 0.39 |
+| R002 | resto | S01 | 2026-04-01 | 2026-04-07 | Nueva York | USA | pedido a domicilio | 2934.50 | 54695 | 36354 | 818 | 43 | 256.32 | 0.41 |
+| R003 | resto | S01 | 2026-04-01 | 2026-04-07 | Bogotá | Colombia | reserva de mesa | 2425.16 | 35480 | 23497 | 534 | 17 | 451.19 | 0.33 |
+| R004 | resto | S01 | 2026-04-01 | 2026-04-07 | Houston | USA | reserva de mesa | 2133.60 | 31712 | 20857 | 513 | 32 | 327.28 | 0.37 |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| R004 | resto | S01 | 2026-04-01 | 2026-04-07 | Houston | USA | reserva de mesa | 2133.60 | 31712 | 20857 | 513 | 32 | 327.28 | 0.37 |
+| R005 | resto | S01 | 2026-04-01 | 2026-04-07 | Miami | USA | cupón canjeado en local | 1892.91 | 25831 | 17638 | 554 | 19 | 104.69 | 0.44 |
+| R006 | resto | S01 | 2026-04-01 | 2026-04-07 | Orlando | USA | reserva de mesa | 2480.33 | 44804 | 28113 | 912 | 35 | 318.79 | 0.40 |
+| R007 | resto | S01 | 2026-04-01 | 2026-04-07 | Bogotá | Colombia | reserva de mesa | 3388.28 | 51220 | 34225 | 522 | 19 | 286.42 | 0.34 |
+| R008 | resto | S01 | 2026-04-01 | 2026-04-07 | Nueva York | USA | pedido a domicilio | 2234.09 | 44683 | 30268 | 637 | 42 | 173.92 | 0.40 |
+| R009 | resto | S01 | 2026-04-01 | 2026-04-07 | Houston | USA | pedido a domicilio | 2543.95 | 34112 | 23085 | 527 | 12 | 249.52 | 0.38 |
+| R010 | resto | S01 | 2026-04-01 | 2026-04-07 | Miami | USA | reserva de mesa | 3487.01 | 71854 | 46918 | 1412 | 102 | 376.40 | 0.37 |
+| R001 | resto | S02 | 2026-04-08 | 2026-04-14 | Miami | USA | pedido a domicilio | 2147.38 | 38912 | 25062 | 839 | 44 | 326.82 | 0.39 |
+| R002 | resto | S02 | 2026-04-08 | 2026-04-14 | Nueva York | USA | pedido a domicilio | 3014.25 | 57318 | 41307 | 796 | 46 | 250.14 | 0.41 |
+| R003 | resto | S02 | 2026-04-08 | 2026-04-14 | Bogotá | Colombia | reserva de mesa | 2279.95 | 31853 | 21339 | 432 | 15 | 449.57 | 0.33 |
+| R004 | resto | S02 | 2026-04-08 | 2026-04-14 | Houston | USA | reserva de mesa | 2239.25 | 32987 | 23265 | 533 | 36 | 300.23 | 0.37 |
+| R005 | resto | S02 | 2026-04-08 | 2026-04-14 | Miami | USA | cupón canjeado en local | 2128.69 | 28061 | 19380 | 650 | 21 | 109.97 | 0.44 |
+| R006 | resto | S02 | 2026-04-08 | 2026-04-14 | Orlando | USA | reserva de mesa | 2393.35 | 40558 | 26741 | 905 | 33 | 332.67 | 0.40 |
+| R007 | resto | S02 | 2026-04-08 | 2026-04-14 | Bogotá | Colombia | reserva de mesa | 2982.87 | 45217 | 30227 | 456 | 14 | 279.94 | 0.34 |
+| R008 | resto | S02 | 2026-04-08 | 2026-04-14 | Nueva York | USA | pedido a domicilio | 1924.84 | 38993 | 25987 | 586 | 39 | 167.84 | 0.40 |
+| R009 | resto | S02 | 2026-04-08 | 2026-04-14 | Houston | USA | pedido a domicilio | 2633.26 | 37220 | 24553 | 631 | 17 | 248.56 | 0.38 |
+| R010 | resto | S02 | 2026-04-08 | 2026-04-14 | Miami | USA | reserva de mesa | 3412.89 | 67794 | 43703 | 1287 | 103 | 392.57 | 0.37 |
+| R001 | resto | S03 | 2026-04-15 | 2026-04-21 | Miami | USA | pedido a domicilio | 2414.55 | 42361 | 28306 | 923 | 49 | 335.68 | 0.39 |
+| R002 | resto | S03 | 2026-04-15 | 2026-04-21 | Nueva York | USA | pedido a domicilio | 2939.86 | 58327 | 40788 | 809 | 44 | 278.57 | 0.41 |
+| R003 | resto | S03 | 2026-04-15 | 2026-04-21 | Bogotá | Colombia | reserva de mesa | 2356.99 | 32988 | 22793 | 476 | 15 | 488.89 | 0.33 |
+| R004 | resto | S03 | 2026-04-15 | 2026-04-21 | Houston | USA | reserva de mesa | 2234.35 | 32367 | 22908 | 577 | 36 | 309.85 | 0.37 |
+| R005 | resto | S03 | 2026-04-15 | 2026-04-21 | Miami | USA | cupón canjeado en local | 20749.10 | 28142 | 18315 | 629 | 20 | 110.37 | 0.44 |
+| R006 | resto | S03 | 2026-04-15 | 2026-04-21 | Orlando | USA | reserva de mesa | 2564.77 | 47458 | 28976 | 1053 | 41 | 328.26 | 0.40 |
+| R007 | resto | S03 | 2026-04-15 | 2026-04-21 | Bogotá | Colombia | reserva de mesa | 3122.87 | 47511 | 32139 | 517 | 17 | 282.10 | 0.34 |
+| R008 | resto | S03 | 2026-04-15 | 2026-04-21 | Nueva York | USA | pedido a domicilio | 2195.37 | 41974 | 26754 | 591 | 40 | 183.77 | 0.40 |
+| R009 | resto | S03 | 2026-04-15 | 2026-04-21 | Houston | USA | pedido a domicilio | 2504.16 | 34525 | 21886 | 545 | 13 | 259.49 | 0.38 |
+| R010 | resto | S03 | 2026-04-15 | 2026-04-21 | Miami | USA | reserva de mesa | 3275.51 | 64906 | 43969 | 1326 | 102 | 396.73 | 0.37 |
+| R001 | resto | S04 | 2026-04-22 | 2026-04-28 | Miami | USA | pedido a domicilio | 2370.29 | 42325 | 27772 | 899 | 42 | 336.96 | 0.39 |
+| R002 | resto | S04 | 2026-04-22 | 2026-04-28 | Nueva York | USA | pedido a domicilio | 2932.65 | 55534 | 38404 |  | 42 | 267.92 | 0.41 |
+| R003 | resto | S04 | 2026-04-22 | 2026-04-28 | Bogotá | Colombia | reserva de mesa | 2530.95 | 37494 | 24381 | 545 | 22 | 480.86 | 0.33 |
+| R004 | resto | S04 | 2026-04-22 | 2026-04-28 | Houston | USA | reserva de mesa | 2038.34 | 30663 | 21068 | 547 | 40 | 312.05 | 0.37 |
+| R005 | resto | S04 | 2026-04-22 | 2026-04-28 | Miami | USA | cupón canjeado en local | 1870.72 | 26185 | 16837 | 618 | 22 | 109.93 | 0.44 |
+| R006 | resto | S04 | 2026-04-22 | 2026-04-28 | Orlando | USA | reserva de mesa | 2451.68 | 41670 | 27426 | 858 | 33 | 327.90 | 0.40 |
+| R007 | resto | S04 | 2026-04-22 | 2026-04-28 | Bogotá | Colombia | reserva de mesa | 3194.02 | 48587 | 34560 | 560 | 18 | 288.23 | 0.34 |
+| R008 | resto | S04 | 2026-04-22 | 2026-04-28 | Nueva York | USA | pedido a domicilio | 2226.30 | 44619 | 28452 | 605 | 40 | 173.84 | 0.40 |
+| R009 | resto | S04 | 2026-04-22 | 2026-04-28 | Houston | USA | pedido a domicilio | 2798.89 | 38675 | 24985 | 590 | 16 | 255.11 | 0.38 |
+| R010 | resto | S04 | 2026-04-22 | 2026-04-28 | Miami | USA | reserva de mesa | 3628.89 | 73333 | 49487 | 1549 | 104 | 404.45 | 0.37 |
+| R001 | resto | S05 | 2026-04-29 | 2026-05-05 | Miami | USA | pedido a domicilio | 2267.29 | 37492 | 25159 | 893 | 55 | 312.85 | 0.39 |
+| R002 | resto | S05 | 2026-04-29 | 2026-05-05 | Nueva York | USA | pedido a domicilio | 2848.17 | 49737 | 33336 | 851 | 55 | 260.80 | 0.41 |
+| R003 | resto | S05 | 2026-04-29 | 2026-05-05 | Bogotá | Colombia | reserva de mesa | 2603.52 | 35370 | 22738 | 542 | 23 | 473.48 | 0.33 |
+| R004 | resto | S05 | 2026-04-29 | 2026-05-05 | Houston | USA | reserva de mesa | 2362.50 | 32332 | 21016 | 32558 | 42 | 311.18 | 0.37 |
+| R005 | resto | S05 | 2026-04-29 | 2026-05-05 | Miami | USA | cupón canjeado en local | 2279.23 | 29146 | 18278 | 659 | 24 | 107.25 | 0.44 |
+| R006 | resto | S05 | 2026-04-29 | 2026-05-05 | Orlando | USA | reserva de mesa | 2479.14 | 40501 | 24391 | 862 | 36 | 357.21 | 0.40 |
+| R007 | resto | S05 | 2026-04-29 | 2026-05-05 | Bogotá | Colombia | reserva de mesa | 3187.13 | 45245 | 31751 | 546 | 23 | 264.53 | 0.34 |
+| R008 | resto | S05 | 2026-04-29 | 2026-05-05 | Nueva York | USA | pedido a domicilio | 2300.42 | 46096 | 29113 | 721 | 57 | 178.84 | 0.40 |
+| R009 | resto | S05 | 2026-04-29 | 2026-05-05 | Houston | USA | pedido a domicilio | 2789.32 | 35446 | 23999 | 560 | 14 | 257.52 | 0.38 |
+| R010 | resto | S05 | 2026-04-29 | 2026-05-05 | Miami | USA | reserva de mesa | 3752.90 | 72718 | 48679 | 1397 | 110 | 399.91 | 0.37 |
+| R001 | resto | S06 | 2026-05-06 | 2026-05-12 | Miami | USA | pedido a domicilio | 2764.32 | 41408 | 25752 | 1013 | 64 | 338.93 | 0.39 |
+| R002 | resto | S06 | 2026-05-06 | 2026-05-12 | Nueva York | USA | pedido a domicilio | 3355.49 | 56602 | 38548 | 1005 | 82 | 274.07 | 0.41 |
+| R003 | resto | S06 | 2026-05-06 | 2026-05-12 | Bogotá | Colombia | reserva de mesa | 2973.71 | 38873 | 24743 | 658 | 33 | 469.91 | 0.33 |
+| R004 | resto | S06 | 2026-05-06 | 2026-05-12 | Houston | USA | reserva de mesa | 2357.46 | 31965 | 21408 | 622 | 59 | 321.26 | 0.37 |
+| R005 | resto | S06 | 2026-05-06 | 2026-05-12 | Miami | USA | cupón canjeado en local | 2450.25 | 30014 | 18988 | 733 | 35 | 114.28 | 0.44 |
+| R006 | resto | S06 | 2026-05-06 | 2026-05-12 | Orlando | USA | reserva de mesa | 2746.67 | 45409 | 28077 | 1079 | 57 | 331.46 | 0.40 |
+| R007 | resto | S06 | 2026-05-06 | 2026-05-12 | Bogotá | Colombia | reserva de mesa | 3736.91 | 49422 | 33124 | 662 | 32 | 289.31 | 0.34 |
+| R008 | resto | S06 | 2026-05-06 | 2026-05-12 | Nueva York | USA | pedido a domicilio | 2273.23 | 40837 | 25783 | 650 | 52 | 172.08 | 0.40 |
+| R009 | resto | S06 | 2026-05-06 | 2026-05-12 | Houston | USA | pedido a domicilio | 2990.56 | 39202 | 25215 | 733 | 24 | 261.15 | 0.38 |
+| R010 | resto | S06 | 2026-05-06 | 2026-05-12 | Miami | USA | reserva de mesa | 4010.36 | 76889 | 49267 | 1662 | 159 | 407.64 | 0.37 |
+| R001 | resto | S07 | 2026-05-13 | 2026-05-19 | Miami | USA | pedido a domicilio | 2603.57 | 43835 | 27181 | 966 | 62 | 338.34 | 0.39 |
+| R002 | resto | S07 | 2026-05-13 | 2026-05-19 | Nueva York | USA | pedido a domicilio | 3128.55 | 57559 | 40401 | 974 | 60 | 271.75 | 0.41 |
+| R003 | resto | S07 | 2026-05-13 | 2026-05-19 | Bogotá | Colombia | reserva de mesa | 2469.50 | 35524 | 23118 | 534 | 23 | 490.30 | 0.33 |
+| R004 | resto | S07 | 2026-05-13 | 2026-05-19 | Houston | USA | reserva de mesa | 2300.62 | 31137 | 21305 | 575 | 44 | 302.00 | 0.37 |
+| R005 | resto | S07 | 2026-05-13 | 2026-05-19 | Miami | USA | cupón canjeado en local | 2233.53 | 29005 | 19834 | 654 | 23 | 114.56 | 0.44 |
+| R006 | resto | S07 | 2026-05-13 | 2026-05-19 | Orlando | USA | reserva de mesa | 2725.37 | 44267 | 27284 | 988 | 45 | 338.63 | 0.40 |
+| R007 | resto | S07 | 2026-05-13 | 2026-05-19 | Bogotá | Colombia | reserva de mesa | 3284.59 | 46258 | 32394 | 580 | 26 | 274.65 | 0.34 |
+| R008 | resto | S07 | 2026-05-13 | 2026-05-19 | Nueva York | USA | pedido a domicilio | 2421.40 | 45553 | 28472 | 667 | 47 | 173.25 | 0.40 |
+| R009 | resto | S07 | 2026-05-13 | 2026-05-19 | Houston | USA | pedido a domicilio | 2844.62 | 36376 | 24469 | 597 | 18 | 258.18 | 0.38 |
+| R010 | resto | S07 | 2026-05-13 | 2026-05-19 | Miami | USA | reserva de mesa | 3697.87 | 70909 | 45029 | 1528 | 129 | 417.95 | 0.37 |
+| R001 | resto | S08 | 2026-05-20 | 2026-05-26 | Miami | USA | pedido a domicilio | 2544.89 | 40254 | 24633 | 895 | 52 | 314.74 | 0.39 |
+| R002 | resto | S08 | 2026-05-20 | 2026-05-26 | Nueva York | USA | pedido a domicilio | 3345.75 | 58447 | 39808 | 944 | 67 | 271.66 | 0.41 |
+| R003 | resto | S08 | 2026-05-20 | 2026-05-26 | Bogotá | Colombia | reserva de mesa | 2770.76 | 37369 | 24559 | 572 | 26 | 483.86 | 0.33 |
+| R004 | resto | S08 | 2026-05-20 | 2026-05-26 | Houston | USA | reserva de mesa | 2433.38 | 32924 |  | 581 | 42 | 306.47 | 0.37 |
+| R005 | resto | S08 | 2026-05-20 | 2026-05-26 | Miami | USA | cupón canjeado en local | 2374.60 | 29640 | 18649 | 653 | 25 | 109.24 | 0.44 |
+| R006 | resto | S08 | 2026-05-20 | 2026-05-26 | Orlando | USA | reserva de mesa | 2571.17 | 41113 | 25973 | 944 | 40 | 343.36 | 0.40 |
+| R007 | resto | S08 | 2026-05-20 | 2026-05-26 | Bogotá | Colombia | reserva de mesa | 3630.00 | 50021 | 32296 | 541 | 20 | 286.76 | 0.34 |
+| R008 | resto | S08 | 2026-05-20 | 2026-05-26 | Nueva York | USA | pedido a domicilio | 2242.83 | 43735 | 26846 | 633 | 50 | 176.79 | 0.40 |
+| R009 | resto | S08 | 2026-05-20 | 2026-05-26 | Houston | USA | pedido a domicilio | 2683.76 | 35380 | 22385 | 600 | 18 | 246.23 | 0.38 |
+| R010 | resto | S08 | 2026-05-20 | 2026-05-26 |  Miami | USA | reserva de mesa | 3478.53 | 67529 | 42276 | 1548 | 150 | 423.70 | 0.37 |
+| R001 | resto | S09 | 2026-05-27 | 2026-06-02 | Miami | USA | pedido a domicilio | 2254.67 | 35512 | 23251 | 756 | 40 | 323.40 | 0.39 |
+| R002 | resto | S09 | 2026-05-27 | 2026-06-02 | Nueva York | USA | pedido a domicilio | 2861.24 | 54730 | 36921 | 859 | 54 | 272.48 | 0.41 |
+| R003 | resto | S09 | 2026-05-27 | 2026-06-02 | Bogotá | Colombia | reserva de mesa | 2687.46 | 38925 | 24112 | 629 | 25 | 481.63 | 0.33 |
+| R004 | resto | S09 | 2026-05-27 | 2026-06-02 | Houston | USA | reserva de mesa | 2197.58 | 30880 | 19693 | 572 | 46 | 326.29 | 0.37 |
+| R005 | resto | S09 | 2026-05-27 | 2026-06-02 | Miami | USA | cupón canjeado en local | 2016.43 | 25712 | 16610 | 621 | 27 | 112.27 | 0.44 |
+| R006 | resto | S09 | 2026-05-27 | 2026-06-02 | Orlando | USA | reserva de mesa | 2610.26 | 44432 | 26621 | 975 | 38 | 337.94 | 0.40 |
+| R007 | resto | S09 | 2026-05-27 | 2026-06-02 | Bogotá | Colombia | reserva de mesa | 3176.83 | 42947 | 30708 | 499 | 18 | 276.03 | 0.34 |
+| R008 | resto | S09 | 2026-05-27 | 2026-06-02 | Nueva York | USA | pedido a domicilio | 2328.40 | 44715 | 29960 | 724 | 57 | 172.37 | 0.40 |
+| R009 | resto | S09 | 2026-05-27 | 2026-06-02 | Houston | USA | pedido a domicilio | 2668.82 | 35676 | 22640 | 634 | 16 | 234.01 | 0.38 |
+| R010 | resto | S09 | 2026-05-27 | 2026-06-02 | Miami | USA | reserva de mesa | 3697.00 | 73324 | 45345 | 1569 | 143 | 396.24 | 0.37 |
+| R001 | resto | S10 | 2026-06-03 | 2026-06-09 | Miami | USA | pedido a domicilio | 2432.02 | 40073 | 25219 | 901 | 46 | 309.53 | 0.39 |
+| R002 | resto | S10 | 2026-06-03 | 2026-06-09 | Nueva York | USA | pedido a domicilio | 3143.04 | 59757 | 41296 | 843 | 49 | 267.91 | 0.41 |
+| R003 | resto | S10 | 2026-06-03 | 2026-06-09 | Bogotá | Colombia | reserva de mesa | 2572.12 | 36739 | 23695 | 538 | 21 | 492.57 | 0.33 |
+| R004 | resto | S10 | 2026-06-03 | 2026-06-09 | Houston | USA | reserva de mesa | 2318.84 | 33156 | 23064 | 607 | 39 | 311.15 | 0.37 |
+| R005 | resto | S10 | 2026-06-03 | 2026-06-09 | Miami | USA | cupón canjeado en local | 2111.78 | 28271 | 17777 | 632 | 20 | 111.75 | 0.44 |
+| R006 | resto | S10 | 2026-06-03 | 2026-06-09 | Orlando | USA | reserva de mesa | 2548.71 | 43089 | 27185 | 903 | 32 | 355.89 | 0.40 |
+| R007 | resto | S10 | 2026-06-03 | 2026-06-09 | Bogotá | Colombia | reserva de mesa | 3370.53 | 46491 | 30611 | 503 | 18 | 285.15 | 0.34 |
+| R008 | resto | S10 | 2026-06-03 | 2026-06-09 | Nueva York | USA | pedido a domicilio | 1992.74 | 38034 | 23449 | 519 | 35 | 185.29 | 0.40 |
+| R009 | resto | S10 | 2026-06-03 | 2026-06-09 | Houston | USA | pedido a domicilio | 2627.62 | 36165 | 24256 | 604 | 15 | 255.64 | 0.38 |
+| R010 | resto | S10 | 2026-06-03 | 2026-06-09 | Miami | USA | reserva de mesa | 3515.14 | 73792 | 45309 | 1586 | 114 | 397.13 | 0.37 |
+| R001 | resto | S11 | 2026-06-10 | 2026-06-16 | Miami | USA | pedido a domicilio | 2188.54 | 35886 | 22493 | 729 | 41 | 326.05 | 0.39 |
+| R002 | resto | S11 | 2026-06-10 | 2026-06-16 | Nueva York | USA | pedido a domicilio | 2785.77 | 54368 | 37879 | 784 | 42 | 249.82 | 0.41 |
+| R003 | resto | S11 | 2026-06-10 | 2026-06-16 | Bogotá | Colombia | reserva de mesa | 2512.29 | 34700 | 22268 | 507 | 20 | 495.27 | 0.33 |
+| R004 | resto | S11 | 10/06/2026 | 2026-06-16 | Houston | USA | reserva de mesa | 2329.45 | 35694 | 25228 | 589 | 38 | 317.19 | 0.37 |
+| R005 | resto | S11 | 2026-06-10 | 2026-06-16 | Miami | USA | cupón canjeado en local | 2041.26 | 26374 | 16521 | 598 | 21 | 111.40 | 0.44 |
+| R006 | resto | S11 | 2026-06-10 | 2026-06-16 | Orlando | USA | reserva de mesa | 2696.21 | 46536 | 29294 | 1033 | 44 | 343.00 | 0.40 |
+| R007 | resto | S11 | 2026-06-10 | 2026-06-16 | Bogotá | Colombia | reserva de mesa | 3084.35 | 42179 | 29102 | 453 | 15 | 277.37 | 0.34 |
+| R008 | resto | S11 | 2026-06-10 | 2026-06-16 | Nueva York | USA | pedido a domicilio | 2294.25 | 43217 | 28532 | 611 | 41 | 184.29 | 0.40 |
+| R009 | resto | S11 | 2026-06-10 | 2026-06-16 | Houston | USA | pedido a domicilio | 2620.38 | 34614 | 22727 | 519 | 12 | 258.57 | 0.38 |
+| R010 | resto | S11 | 2026-06-10 | 2026-06-16 | miami | USA | reserva de mesa | 3631.38 | 73596 | 49417 | 1477 | 124 | 407.82 | 0.37 |
+| R001 | resto | S12 | 2026-06-17 | 2026-06-23 | Miami | USA | pedido a domicilio | 2347.04 | 41202 | 25818 | 817 | 48 | 338.27 | 0.39 |
+| R002 | resto | S12 | 2026-06-17 | 2026-06-23 | Nueva York | USA | pedido a domicilio | 2925.73 | 55487 | 38219 | 830 | 50 | 277.02 | 0.41 |
+| R003 | resto | S12 | 2026-06-17 | 2026-06-23 | Bogotá | Colombia | reserva de mesa | 2456.92 | 37069 | 25713 | 506 | 19 | 495.16 | 0.33 |
+| R004 | resto | S12 | 2026-06-17 | 2026-06-23 | Houston | USA | reserva de mesa | 2081.54 | 29297 | 20712 | 537 | 35 | 317.69 | 0.37 |
+| R005 | resto | S12 | 2026-06-17 | 2026-06-23 | Miami | USA | cupón canjeado en local | 2079.24 | 27690 | 17444 | 619 | 20 | 110.31 | 0.44 |
+| R006 | resto | S12 | 2026-06-17 | 2026-06-23 | Orlando | USA | reserva de mesa | 2381.86 | 41093 | 26830 | 856 | 32 | 344.48 | 0.40 |
+| R007 | resto | S12 | 2026-06-17 | 2026-06-23 | Bogotá | Colombia | reserva de mesa | 3283.03 | 47416 | 30888 | 492 | 19 | 260.70 | 0.34 |
+| R008 | resto | S12 | 2026-06-17 | 2026-06-23 | Nueva York | USA | pedido a domicilio | 2013.73 | 39289 | 24106 | 590 | 43 | 168.64 | 0.40 |
+| R009 | resto | S12 | 2026-06-17 | 2026-06-23 | Houston | USA | pedido a domicilio | 2910.69 | 41338 | 27652 | 643 | 15 | 250.52 | 0.38 |
+| R010 | resto | S12 | 2026-06-17 | 2026-06-23 | Miami | USA | reserva de mesa | 3605.75 | 74482 | 47032 | 1544 | 122 | 421.39 | 0.37 |
+| R001 | resto | S13 | 2026-06-24 | 2026-06-30 | Miami | USA | pedido a domicilio | 2473.82 | 40687 | 25167 | 919 | 43 | 312.18 | 0.39 |
+| R002 | resto | S13 | 2026-06-24 | 2026-06-30 | Nueva York | USA | pedido a domicilio | 2908.43 | 54503 | 35437 | 774 | 47 | 275.97 | 0.41 |
+| R003 | resto | S13 | 2026-06-24 | 2026-06-30 | Bogotá | Colombia | reserva de mesa | 2523.21 | 38073 | 26256 | 563 | 19 | 471.06 | 0.33 |
+| R004 | resto | S13 | 2026-06-24 | 2026-06-30 | Houston | USA | reserva de mesa | 2021.63 | 31155 | 20411 | 549 | 43 | 298.68 | 0.37 |
+| R005 | resto | S13 | 2026-06-24 | 2026-06-30 | Miami | USA | cupón canjeado en local | 1987.78 | 26576 | 16818 | 644 | 23 | 110.51 | 0.44 |
+| R006 | resto | S13 | 2026-06-24 | 2026-06-30 | Orlando | USA | reserva de mesa | 2542.29 | 42990 | 25483 | 1020 | 44 | 358.15 | 0.40 |
+| R007 | resto | S13 | 2026-06-24 | 2026-06-30 | Bogotá | Colombia | reserva de mesa | 3453.33 | 49531 | 32722 | 514 | 18 | 289.62 | 0.34 |
+| R008 | resto | S13 | 2026-06-24 | 2026-06-30 | Nueva York | USA | pedido a domicilio | 2025.24 | 39408 | 24189 | 578 | 44 | 168.51 | 0.40 |
+| R009 | resto | S13 | 2026-06-24 | 2026-06-30 | Houston | USA | pedido a domicilio | 2585.75 | 34321 | 21816 | 563 | 15 | 237.02 | 0.38 |
+| R010 | resto | S13 | 2026-06-24 | 2026-06-30 | Miami | USA | reserva de mesa | 3670.74 | 73141 | 48754 | 1369 | 98 | 378.21 | 0.37 |

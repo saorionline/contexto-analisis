@@ -1,0 +1,180 @@
+archivo,fila_csv,columna,tipo,valor_original,valor_sembrado
+rts-csv/season1_campana_resto_raw.csv,122,ticket_promedio,coma decimal,249.65,"249,65"
+rts-csv/season1_campana_resto_raw.csv,68,ciudad,espacios,Orlando, Orlando
+rts-csv/season1_campana_resto_raw.csv,57,clics,nulo,919,
+rts-csv/season1_campana_resto_raw.csv,60,id_entidad,id con otro formato,R009,r009
+rts-csv/season1_campana_resto_raw.csv,55,ciudad,mayúsculas/tildes,Houston,HOUSTON
+rts-csv/season1_campana_resto_raw.csv,82,sector,espacios,resto,resto  
+rts-csv/season1_campana_resto_raw.csv,131,inversion_pauta,valor atípico,3482.63,34826.30
+rts-csv/season1_campana_resto_raw.csv,65,(fila completa),duplicado exacto,copia de la fila 64,
+rts-csv/season1_campana_resto_raw.csv,106,(fila completa),registro vacío,,
+rts-csv/season2_campana_resto_raw.csv,106,fecha_inicio,formato de fecha,2026-03-12,12/03/2026
+rts-csv/season2_campana_resto_raw.csv,26,ticket_promedio,coma decimal,107.49,"107,49"
+rts-csv/season2_campana_resto_raw.csv,80,ciudad,espacios,Bogotá, Bogotá
+rts-csv/season2_campana_resto_raw.csv,50,sector,espacios,resto,resto  
+rts-csv/season2_campana_resto_raw.csv,71,ciudad,mayúsculas/tildes,Nueva York,NUEVA YORK
+rts-csv/season2_campana_resto_raw.csv,92,clics,incoherencia lógica,598,37913
+rts-csv/season2_campana_resto_raw.csv,68,clics,nulo,609,
+rts-csv/season2_campana_resto_raw.csv,103,alcance,nulo,47076,
+rts-csv/season2_campana_resto_raw.csv,32,(fila completa),duplicado exacto,copia de la fila 31,
+rts-csv/season2_campana_resto_raw.csv,48,(fila completa),registro vacío,,
+rts-csv/season3_campana_resto_raw.csv,113,ciudad,mayúsculas/tildes,Miami,miami
+rts-csv/season3_campana_resto_raw.csv,28,inversion_pauta,valor atípico,2074.91,20749.10
+rts-csv/season3_campana_resto_raw.csv,35,clics,nulo,795,
+rts-csv/season3_campana_resto_raw.csv,107,fecha_inicio,formato de fecha,2026-06-10,10/06/2026
+rts-csv/season3_campana_resto_raw.csv,77,alcance,nulo,22105,
+rts-csv/season3_campana_resto_raw.csv,83,ciudad,espacios,Miami, Miami
+rts-csv/season3_campana_resto_raw.csv,47,clics,incoherencia lógica,608,32558
+rts-csv/season3_campana_resto_raw.csv,7,(fila completa),duplicado exacto,copia de la fila 5,
+rts-csv/season3_campana_resto_raw.csv,6,(fila completa),registro vacío,,
+rts-csv/season4_campana_resto_raw.csv,94,sector,espacios,resto,resto  
+rts-csv/season4_campana_resto_raw.csv,110,ticket_promedio,coma decimal,265.88,"265,88"
+rts-csv/season4_campana_resto_raw.csv,24,inversion_pauta,valor atípico,2430.51,24305.10
+rts-csv/season4_campana_resto_raw.csv,127,clics,incoherencia lógica,757,40760
+rts-csv/season4_campana_resto_raw.csv,51,clics,nulo,553,
+rts-csv/season4_campana_resto_raw.csv,42,id_entidad,id con otro formato,R001,r001
+rts-csv/season4_campana_resto_raw.csv,19,ciudad,mayúsculas/tildes,Nueva York,nueva york
+rts-csv/season4_campana_resto_raw.csv,8,ciudad,espacios,Bogotá, Bogotá
+rts-csv/season4_campana_resto_raw.csv,47,(fila completa),duplicado exacto,copia de la fila 46,
+rts-csv/season4_campana_resto_raw.csv,106,(fila completa),registro vacío,,
+ftnss-csv/fitness_raw.csv,2,nombre,espacios,Pulso Gym,  Pulso Gym
+ftnss-csv/fitness_raw.csv,5,zona,espacios,Norte,Norte 
+ftnss-csv/fitness_raw.csv,6,categoria,espacios,Yoga y Pilates, Yoga y Pilates
+ftnss-csv/fitness_raw.csv,8,engagement_rate,nulo,2.6,
+ftnss-csv/fitness_raw.csv,10,seguidores_instagram,nulo,11400,
+ftnss-csv/fitness_raw.csv,12,engagement_rate,nulo,3.9,
+ftnss-csv/fitness_raw.csv,4,(fila completa),duplicado exacto,copia de la fila 3,
+ftnss-csv/fitness_raw.csv,9,(fila completa),registro vacío,,
+ftnss-csv/fitness_raw.csv,13,(fila completa),duplicado con espacios,copia de la fila 7,Marea Fit  
+ftnss-csv/season1_campana_fitness_raw.csv,118,ticket_promedio,coma decimal,98.86,"98,86"
+ftnss-csv/season1_campana_fitness_raw.csv,22,ciudad,espacios,Miami, Miami
+ftnss-csv/season1_campana_fitness_raw.csv,23,clics,nulo,437,
+ftnss-csv/season1_campana_fitness_raw.csv,121,id_entidad,id con otro formato,F008,f008
+ftnss-csv/season1_campana_fitness_raw.csv,33,ciudad,mayúsculas/tildes,Nueva York,NUEVA YORK
+ftnss-csv/season1_campana_fitness_raw.csv,36,sector,espacios,fitness,fitness  
+ftnss-csv/season1_campana_fitness_raw.csv,63,inversion_pauta,valor atípico,2501.47,25014.70
+ftnss-csv/season1_campana_fitness_raw.csv,49,(fila completa),duplicado exacto,copia de la fila 48,
+ftnss-csv/season1_campana_fitness_raw.csv,50,(fila completa),registro vacío,,
+ftnss-csv/season2_campana_fitness_raw.csv,110,fecha_inicio,formato de fecha,2026-03-12,12/03/2026
+ftnss-csv/season2_campana_fitness_raw.csv,84,ticket_promedio,coma decimal,92.54,"92,54"
+ftnss-csv/season2_campana_fitness_raw.csv,106,ciudad,espacios,Bogotá, Bogotá
+ftnss-csv/season2_campana_fitness_raw.csv,85,sector,espacios,fitness,fitness  
+ftnss-csv/season2_campana_fitness_raw.csv,105,ciudad,mayúsculas/tildes,Nueva York,nueva york
+ftnss-csv/season2_campana_fitness_raw.csv,55,clics,incoherencia lógica,536,42557
+ftnss-csv/season2_campana_fitness_raw.csv,27,clics,nulo,2097,
+ftnss-csv/season2_campana_fitness_raw.csv,29,alcance,nulo,14965,
+ftnss-csv/season2_campana_fitness_raw.csv,51,(fila completa),duplicado exacto,copia de la fila 50,
+ftnss-csv/season2_campana_fitness_raw.csv,54,(fila completa),registro vacío,,
+ftnss-csv/season3_campana_fitness_raw.csv,53,ciudad,mayúsculas/tildes,Miami,MIAMI
+ftnss-csv/season3_campana_fitness_raw.csv,54,inversion_pauta,valor atípico,1717.47,17174.70
+ftnss-csv/season3_campana_fitness_raw.csv,9,clics,nulo,330,
+ftnss-csv/season3_campana_fitness_raw.csv,93,fecha_inicio,formato de fecha,2026-06-03,03/06/2026
+ftnss-csv/season3_campana_fitness_raw.csv,92,alcance,nulo,46950,
+ftnss-csv/season3_campana_fitness_raw.csv,13,ciudad,espacios,Nueva York, Nueva York
+ftnss-csv/season3_campana_fitness_raw.csv,76,clics,incoherencia lógica,951,54168
+ftnss-csv/season3_campana_fitness_raw.csv,30,(fila completa),duplicado exacto,copia de la fila 29,
+ftnss-csv/season3_campana_fitness_raw.csv,122,(fila completa),registro vacío,,
+ftnss-csv/season4_campana_fitness_raw.csv,23,sector,espacios,fitness,fitness  
+ftnss-csv/season4_campana_fitness_raw.csv,119,ticket_promedio,coma decimal,54.67,"54,67"
+ftnss-csv/season4_campana_fitness_raw.csv,75,inversion_pauta,valor atípico,3784.57,37845.70
+ftnss-csv/season4_campana_fitness_raw.csv,13,clics,incoherencia lógica,490,47277
+ftnss-csv/season4_campana_fitness_raw.csv,3,clics,nulo,420,
+ftnss-csv/season4_campana_fitness_raw.csv,43,id_entidad,id con otro formato,F002,f002
+ftnss-csv/season4_campana_fitness_raw.csv,51,ciudad,mayúsculas/tildes,Miami,miami
+ftnss-csv/season4_campana_fitness_raw.csv,78,ciudad,espacios,Orlando, Orlando
+ftnss-csv/season4_campana_fitness_raw.csv,109,(fila completa),duplicado exacto,copia de la fila 108,
+ftnss-csv/season4_campana_fitness_raw.csv,53,(fila completa),registro vacío,,
+rtl-csv/retail_raw.csv,2,nombre,espacios,Precio Justo Market,  Precio Justo Market
+rtl-csv/retail_raw.csv,5,zona,espacios,Sur,Sur 
+rtl-csv/retail_raw.csv,6,categoria,espacios,Ropa económica, Ropa económica
+rtl-csv/retail_raw.csv,8,engagement_rate,nulo,2.6,
+rtl-csv/retail_raw.csv,10,seguidores_instagram,nulo,36700,
+rtl-csv/retail_raw.csv,12,engagement_rate,nulo,2.6,
+rtl-csv/retail_raw.csv,4,(fila completa),duplicado exacto,copia de la fila 3,
+rtl-csv/retail_raw.csv,9,(fila completa),registro vacío,,
+rtl-csv/retail_raw.csv,13,(fila completa),duplicado con espacios,copia de la fila 7,Canasta Express  
+rtl-csv/season1_campana_retail_raw.csv,121,ticket_promedio,coma decimal,43.21,"43,21"
+rtl-csv/season1_campana_retail_raw.csv,54,ciudad,espacios,Nueva York, Nueva York
+rtl-csv/season1_campana_retail_raw.csv,124,clics,nulo,10124,
+rtl-csv/season1_campana_retail_raw.csv,97,id_entidad,id con otro formato,C005,c005
+rtl-csv/season1_campana_retail_raw.csv,130,ciudad,mayúsculas/tildes,Bogotá,bogota
+rtl-csv/season1_campana_retail_raw.csv,89,sector,espacios,retail,retail  
+rtl-csv/season1_campana_retail_raw.csv,128,inversion_pauta,valor atípico,10558.50,105585.00
+rtl-csv/season1_campana_retail_raw.csv,99,(fila completa),duplicado exacto,copia de la fila 98,
+rtl-csv/season1_campana_retail_raw.csv,15,(fila completa),registro vacío,,
+rtl-csv/season2_campana_retail_raw.csv,13,fecha_inicio,formato de fecha,2026-01-08,08/01/2026
+rtl-csv/season2_campana_retail_raw.csv,8,ticket_promedio,coma decimal,28.45,"28,45"
+rtl-csv/season2_campana_retail_raw.csv,58,ciudad,espacios,Orlando, Orlando
+rtl-csv/season2_campana_retail_raw.csv,16,sector,espacios,retail,retail  
+rtl-csv/season2_campana_retail_raw.csv,45,ciudad,mayúsculas/tildes,Houston,HOUSTON
+rtl-csv/season2_campana_retail_raw.csv,25,clics,incoherencia lógica,7484,296343
+rtl-csv/season2_campana_retail_raw.csv,54,clics,nulo,2993,
+rtl-csv/season2_campana_retail_raw.csv,33,alcance,nulo,103858,
+rtl-csv/season2_campana_retail_raw.csv,53,(fila completa),duplicado exacto,copia de la fila 52,
+rtl-csv/season2_campana_retail_raw.csv,77,(fila completa),registro vacío,,
+rtl-csv/season3_campana_retail_raw.csv,110,ciudad,mayúsculas/tildes,Houston,HOUSTON
+rtl-csv/season3_campana_retail_raw.csv,54,inversion_pauta,valor atípico,6481.50,64815.00
+rtl-csv/season3_campana_retail_raw.csv,99,clics,nulo,6475,
+rtl-csv/season3_campana_retail_raw.csv,127,fecha_inicio,formato de fecha,2026-06-24,24/06/2026
+rtl-csv/season3_campana_retail_raw.csv,131,alcance,nulo,235710,
+rtl-csv/season3_campana_retail_raw.csv,123,ciudad,espacios,Miami, Miami
+rtl-csv/season3_campana_retail_raw.csv,58,clics,incoherencia lógica,10845,334660
+rtl-csv/season3_campana_retail_raw.csv,118,(fila completa),duplicado exacto,copia de la fila 116,
+rtl-csv/season3_campana_retail_raw.csv,117,(fila completa),registro vacío,,
+rtl-csv/season4_campana_retail_raw.csv,28,sector,espacios,retail,retail  
+rtl-csv/season4_campana_retail_raw.csv,104,ticket_promedio,coma decimal,42.47,"42,47"
+rtl-csv/season4_campana_retail_raw.csv,23,inversion_pauta,valor atípico,5893.43,58934.30
+rtl-csv/season4_campana_retail_raw.csv,88,clics,incoherencia lógica,8403,275473
+rtl-csv/season4_campana_retail_raw.csv,40,clics,nulo,6423,
+rtl-csv/season4_campana_retail_raw.csv,68,id_entidad,id con otro formato,C005,c005
+rtl-csv/season4_campana_retail_raw.csv,53,ciudad,mayúsculas/tildes,Miami,MIAMI
+rtl-csv/season4_campana_retail_raw.csv,56,ciudad,espacios,Bogotá, Bogotá
+rtl-csv/season4_campana_retail_raw.csv,48,(fila completa),duplicado exacto,copia de la fila 47,
+rtl-csv/season4_campana_retail_raw.csv,5,(fila completa),registro vacío,,
+tech-csv/tech_raw.csv,2,nombre,espacios,Nubeflow,  Nubeflow
+tech-csv/tech_raw.csv,5,zona,espacios,Norte,Norte 
+tech-csv/tech_raw.csv,6,categoria,espacios,SaaS de datos, SaaS de datos
+tech-csv/tech_raw.csv,8,engagement_rate,nulo,3.1,
+tech-csv/tech_raw.csv,10,seguidores_instagram,nulo,29150,
+tech-csv/tech_raw.csv,12,engagement_rate,nulo,4.1,
+tech-csv/tech_raw.csv,4,(fila completa),duplicado exacto,copia de la fila 3,
+tech-csv/tech_raw.csv,9,(fila completa),registro vacío,,
+tech-csv/tech_raw.csv,13,(fila completa),duplicado con espacios,copia de la fila 7,Pixel Hogar  
+tech-csv/season1_campana_tech_raw.csv,126,ticket_promedio,coma decimal,3152.62,"3152,62"
+tech-csv/season1_campana_tech_raw.csv,24,ciudad,espacios,Miami, Miami
+tech-csv/season1_campana_tech_raw.csv,118,clics,nulo,449,
+tech-csv/season1_campana_tech_raw.csv,105,id_entidad,id con otro formato,T002,t002
+tech-csv/season1_campana_tech_raw.csv,124,ciudad,mayúsculas/tildes,Miami,miami
+tech-csv/season1_campana_tech_raw.csv,133,sector,espacios,tech,tech  
+tech-csv/season1_campana_tech_raw.csv,50,inversion_pauta,valor atípico,4224.61,42246.10
+tech-csv/season1_campana_tech_raw.csv,9,(fila completa),duplicado exacto,copia de la fila 8,
+tech-csv/season1_campana_tech_raw.csv,18,(fila completa),registro vacío,,
+tech-csv/season2_campana_tech_raw.csv,88,fecha_inicio,formato de fecha,2026-02-26,26/02/2026
+tech-csv/season2_campana_tech_raw.csv,115,ticket_promedio,coma decimal,2227.12,"2227,12"
+tech-csv/season2_campana_tech_raw.csv,16,ciudad,espacios,Miami, Miami
+tech-csv/season2_campana_tech_raw.csv,50,sector,espacios,tech,tech  
+tech-csv/season2_campana_tech_raw.csv,82,ciudad,mayúsculas/tildes,Miami,miami
+tech-csv/season2_campana_tech_raw.csv,79,clics,incoherencia lógica,418,36881
+tech-csv/season2_campana_tech_raw.csv,19,clics,nulo,736,
+tech-csv/season2_campana_tech_raw.csv,107,alcance,nulo,27771,
+tech-csv/season2_campana_tech_raw.csv,66,(fila completa),duplicado exacto,copia de la fila 65,
+tech-csv/season2_campana_tech_raw.csv,112,(fila completa),registro vacío,,
+tech-csv/season3_campana_tech_raw.csv,114,ciudad,mayúsculas/tildes,Miami,MIAMI
+tech-csv/season3_campana_tech_raw.csv,32,inversion_pauta,valor atípico,10515.34,105153.40
+tech-csv/season3_campana_tech_raw.csv,17,clics,nulo,289,
+tech-csv/season3_campana_tech_raw.csv,122,fecha_inicio,formato de fecha,2026-06-17,17/06/2026
+tech-csv/season3_campana_tech_raw.csv,15,alcance,nulo,71893,
+tech-csv/season3_campana_tech_raw.csv,47,ciudad,espacios,Houston, Houston
+tech-csv/season3_campana_tech_raw.csv,78,clics,incoherencia lógica,387,45419
+tech-csv/season3_campana_tech_raw.csv,27,(fila completa),duplicado exacto,copia de la fila 26,
+tech-csv/season3_campana_tech_raw.csv,35,(fila completa),registro vacío,,
+tech-csv/season4_campana_tech_raw.csv,81,sector,espacios,tech,tech  
+tech-csv/season4_campana_tech_raw.csv,2,ticket_promedio,coma decimal,4372.08,"4372,08"
+tech-csv/season4_campana_tech_raw.csv,70,inversion_pauta,valor atípico,4331.70,43317.00
+tech-csv/season4_campana_tech_raw.csv,11,clics,incoherencia lógica,1281,117051
+tech-csv/season4_campana_tech_raw.csv,97,clics,nulo,955,
+tech-csv/season4_campana_tech_raw.csv,86,id_entidad,id con otro formato,T003,t003
+tech-csv/season4_campana_tech_raw.csv,35,ciudad,mayúsculas/tildes,Bogotá,BOGOTÁ
+tech-csv/season4_campana_tech_raw.csv,33,ciudad,espacios,Miami, Miami
+tech-csv/season4_campana_tech_raw.csv,51,(fila completa),duplicado exacto,copia de la fila 50,
+tech-csv/season4_campana_tech_raw.csv,3,(fila completa),registro vacío,,

@@ -1,0 +1,14 @@
+id_entidad,nombre,zona,categoria,seguidores_instagram,engagement_rate,url_instagram
+C001,  Precio Justo Market,Centro,Supermercado económico,42250,1.3,https://www.instagram.com/preciojustomarket/
+C002,Todo a Cinco,Norte,Tienda de descuento,35300,3.9,https://www.instagram.com/todoacinco/
+C002,Todo a Cinco,Norte,Tienda de descuento,35300,3.9,https://www.instagram.com/todoacinco/
+C003,Bodega Ahorro,Sur ,Hogar y cocina,13850,2.5,https://www.instagram.com/bodegaahorro/
+C004,Moda Flash,Poniente, Ropa económica,22400,1.8,https://www.instagram.com/modaflash/
+C005,Canasta Express,Oriente,Supermercado económico,31600,1.9,https://www.instagram.com/canastaexpress/
+C006,Casa Fácil Outlet,Centro,Hogar y cocina,25600,,https://www.instagram.com/casafaciloutlet/
+,,,,,,
+C007,Paso Firme Outlet,Norte,Calzado,,3.0,https://www.instagram.com/pasofirmeoutlet/
+C008,Ahorra Kids,Sur,Juguetería,11250,4.8,https://www.instagram.com/ahorrakids/
+C009,Belleza al Costo,Centro,Cosmética,36350,,https://www.instagram.com/bellezaalcosto/
+C005,Canasta Express  ,Oriente,Supermercado económico,31600,1.9,https://www.instagram.com/canastaexpress/
+C010,Enchufe Barato,Poniente,Accesorios electrónicos,30700,4.4,https://www.instagram.com/enchufebarato/
