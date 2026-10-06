@@ -77,6 +77,8 @@ _Respuesta:_
 | 2026-10-06 | Errores sembrados a propósito en todos los archivos, con registro en `src/simulacion/anomalias_sembradas.csv` | Probar el pipeline de limpieza contra una lista de respuestas conocida | 179 anomalías, 11 tipos |
 | 2026-10-06 | Contador `src/registro_tamano.csv` (filas, bytes en disco, bytes en memoria, segundos) | Vigilar el crecimiento y el tiempo de cálculo | — |
 | 2026-10-06 | Sector Marca y `coffee_sales_raw.csv` quedan fuera por ahora | Enfocar el estudio en 4 sectores | Retomar más adelante |
+| 2026-10-06 | Nomenclatura: **mercado** = Restaurantes, Fitness, Retail o Tecnología; **geografía** = ubicación en 3 niveles: país (USA / Colombia), ciudad y zona | Usar "mercado" para dos cosas confundiría al pipeline | Pendiente: diccionario en `docs/modelado/`, renombrar el eje de Q04 a "geografía" y nunca llamar `mercado` a una columna de ubicación |
+| 2026-10-06 | **Limitación de alcance:** `canal` y `campana` no se crean como entidades propias. El estudio mide la inversión en pauta en **redes sociales** en general; las fichas impresas quedan fuera. La campaña sigue implícita: una entidad en una season | El objetivo es la inversión digital; no hay datos del canal impreso | No se agregan columnas a los crudos ni se regenera la simulación. Se retoma solo si el estudio se amplía a otros canales |
 | | | | |
 
 ## 📝 Notas de sesión
