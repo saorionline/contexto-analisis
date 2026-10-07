@@ -4,7 +4,7 @@ Simulador · Trisectorial Estacional
 Genera los datos crudos (raw) de 4 sectores × 4 seasons (oct-2025 → sep-2026):
 
     src/<carpeta>/<catalogo>_raw.csv                 catálogo de entidades (10 por sector)
-    src/<carpeta>/seasonN_campana_<sector>_raw.csv   13 sprints semanales por season
+    src/<carpeta>/seasonN_campana_<sector>_raw.csv   13 semanas de datos por season (S01–S13)
 
 - Mismos índices en todos los sectores; cambia el tipo de conversión y la curva de demanda.
 - Solo se escriben datos que se capturan: los KPIs (CTR, CPA, ROAS, ROI…) los calcula el pipeline.
@@ -30,7 +30,7 @@ SRC = Path(__file__).resolve().parents[1]
 rng = random.Random(SEMILLA)
 
 # ---------------------------------------------------------------------------
-# Calendario: 4 seasons de 3 meses, 13 sprints cada una (el S13 absorbe los días sobrantes)
+# Calendario: 4 seasons de 3 meses, 13 semanas de datos cada una (la S13 absorbe los días sobrantes)
 # ---------------------------------------------------------------------------
 SEASONS = {
     1: (dt.date(2025, 10, 1), dt.date(2025, 12, 31)),
@@ -40,7 +40,7 @@ SEASONS = {
 }
 
 
-def sprints_de(season):
+def semanas_de(season):
     inicio, fin = SEASONS[season]
     for n in range(1, 14):
         f_ini = inicio + dt.timedelta(days=7 * (n - 1))
@@ -103,7 +103,7 @@ def peso_dia(sector, pais, d):
 
 
 def intensidad(sector, pais, f_ini, f_fin):
-    """Demanda media del sprint (1.0 = semana normal)."""
+    """Demanda media de la semana de datos (1.0 = semana normal)."""
     dias = [(f_ini + dt.timedelta(n)) for n in range((f_fin - f_ini).days + 1)]
     return sum(peso_dia(sector, pais, d) for d in dias) / len(dias)
 
@@ -175,7 +175,7 @@ def handle(nombre):
 # Parámetros por entidad
 # ---------------------------------------------------------------------------
 # Parámetros base de los 10 restaurantes, calculados una sola vez a partir del archivo original
-# (campana_sprints_raw.csv, 4 sprints de oct-2026, commit 283fb0d). Quedan fijos para que la
+# (campana_sprints_raw.csv, 4 semanas de datos de oct-2026, commit 283fb0d). Quedan fijos para que la
 # simulación sea reproducible aunque season1_campana_resto_raw.csv se regenere.
 RESTO_BASE = {
     "R001": dict(ciudad="Miami", inv=2248.82, cpm=57.83, alcance=0.6491, ctr=0.0221, cr=0.0537, ticket=321.21, cv=0.39),
@@ -220,7 +220,8 @@ def entidades_nuevas(sector, lista):
 
 
 # ---------------------------------------------------------------------------
-# Generación de las filas de campaña (52 sprints continuos, luego se parten por season)
+# Generación de las filas de campaña (52 semanas de datos continuas, luego se parten por season)
+# La columna se llama `sprint` en los crudos, pero su valor es la semana de datos (S01–S13).
 # ---------------------------------------------------------------------------
 BASE_COLS = ["id_entidad", "sector", "sprint", "fecha_inicio", "fecha_fin", "ciudad", "pais",
              "tipo_conversion", "inversion_pauta", "impresiones", "alcance", "clics", "conversiones",
@@ -234,7 +235,7 @@ def generar_campana(sector, ents):
         pais = PAIS[e["ciudad"]]
         k = 0
         for season in SEASONS:
-            for sprint, f_ini, f_fin in sprints_de(season):
+            for sprint, f_ini, f_fin in semanas_de(season):
                 k += 1
                 dias = (f_fin - f_ini).days + 1
                 i = intensidad(sector, pais, f_ini, f_fin)
@@ -271,7 +272,7 @@ def generar_campana(sector, ents):
                 fila["ticket_promedio"] = f"{ticket:.2f}"
                 por_season[season].append(fila)
     for filas in por_season.values():
-        filas.sort(key=lambda f: (f["sprint"], f["id_entidad"]))   # foto por sprint, como se captura
+        filas.sort(key=lambda f: (f["sprint"], f["id_entidad"]))   # foto por semana de datos, como se captura
     return por_season
 
 

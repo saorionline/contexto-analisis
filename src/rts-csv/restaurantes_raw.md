@@ -4,7 +4,7 @@ Copia idéntica de `restaurantes_raw.csv`. Datos **simulados** pendientes de emp
 
 <!-- Formato: cada celda lleva exactamente 1 espacio de relleno a cada lado. Los espacios extra son parte del dato (anomalía intencional). Celda vacía = valor nulo. -->
 
-| id_restaurante | nombre | zona | categoria | seguidores_instagram | engagement_rate | url_instagram |
+| id_entidad | nombre | zona | categoria | seguidores_instagram | engagement_rate | url_instagram |
 |---|---|---|---|---|---|---|
 | R001 |   Donburi by Shirai | Centro | Japonesa | 18450 | 4.1 | https://www.instagram.com/donburibyshirai/ |
 | R002 | Ajisen Ramen | Norte | Japonesa | 42300 | 2.3 | https://www.instagram.com/ajisenramenco/ |

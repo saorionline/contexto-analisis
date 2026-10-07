@@ -1,4 +1,4 @@
-id_restaurante,nombre,zona,categoria,seguidores_instagram,engagement_rate,url_instagram
+id_entidad,nombre,zona,categoria,seguidores_instagram,engagement_rate,url_instagram
 R001,  Donburi by Shirai,Centro,Japonesa,18450,4.1,https://www.instagram.com/donburibyshirai/
 R002,Ajisen Ramen,Norte,Japonesa,42300,2.3,https://www.instagram.com/ajisenramenco/
 R003,Espacio La Barca,Poniente ,Mariscos,27800,3.6,https://www.instagram.com/espaciolabarca/
