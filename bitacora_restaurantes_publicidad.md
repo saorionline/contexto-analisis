@@ -92,5 +92,36 @@ _Respuesta:_
 - Modelo relacional, carga a SQLite y diseño de consultas Q01–Q05 (en el prototipo).
 
 ### Sesión 3 · 2026-10-06
-- Simulador del proyecto Trisectorial Estacional: catálogos y campañas de 4 sectores × 4 seasons.
-- Siguiente: pipeline M1 en `src/modelado/` (Definición → Recopilación → Exploración → Preprocesamiento).
+
+**Estructura del repo**
+- `coffee_sales_raw - coffee_sales_raw.csv` → `src/rts-csv/coffee_sales_raw.csv`; sus fechas se redistribuyeron de oct-2025 a sep-2026 con estacionalidad (luego quedó fuera de alcance).
+- `campana_sprints_raw.csv/.md` → `season1_campana_resto_raw.csv/.md` (con `git mv`); se borró `campana_sprints_raw.csv.bak`.
+- Nuevas carpetas: `src/rtl-csv/`, `src/tech-csv/`, `src/simulacion/`.
+- `restaurantes_raw.csv` y `.md`: encabezado `id_restaurante` → `id_entidad`.
+
+**Simulador (M0) · `src/simulacion/simulador.py`**
+- Proyecto Trisectorial Estacional: 4 mercados (resto, fitness, retail, tech) × 4 seasons × 13 semanas de datos, 10 entidades por mercado en 5 ciudades y 2 países.
+- Curvas de demanda propias por mercado y ajustes por país; los crudos traen solo datos capturados.
+- 179 errores sembrados de 11 tipos, con lista de respuestas en `src/simulacion/anomalias_sembradas.csv`.
+- Contador `src/registro_tamano.csv` (filas, disco, memoria, segundos).
+- Reproducible (semilla 20251001); verificado: dos corridas dan archivos idénticos.
+- Dificultades resueltas: saltos de línea CRLF, simulador que leía su propia salida, filas corridas en la lista de respuestas, cronómetro que medía la importación de pandas, retail sin rentabilidad.
+
+**Documentación**
+- `Notas Simulador.ipynb`: inicio, dificultades y fin del simulador, con 7 marcadores de lectura.
+- Bitácora: decisiones de nomenclatura (mercado / geografía; sprint de trabajo / semana de datos), moneda (USD), limitación de alcance (solo pauta en redes sociales; canal y campaña no son entidades) y llave `id_entidad`.
+
+**Verificaciones (solo consulta)**
+- Las fórmulas de ingresos, ticket observado, margen, margen LTV, CPA y ROAS se pueden aplicar con SQL sobre los crudos, con `CAST`, coma decimal, `TRIM` y `NULLIF`.
+- Los crudos no tienen columnas de canal impreso; `impresiones` se refiere a apariciones del anuncio.
+- El ticket por `tipo_conversion` se puede describir, pero está confundido con el restaurante (cada uno tiene un solo tipo).
+- Los crudos no separan primeras compras de recompras.
+- Las fichas 1, 2 y 5 de RTS se pueden contrastar con la lista de respuestas si el Python conserva `fila_csv` y cada ficha indica su `tipo_esperado`.
+
+**Pendiente**
+- Pipeline M1 en `src/modelado/` (Definición → Recopilación → Exploración → Preprocesamiento).
+- Revisar los nombres ficticios de fitness, retail y tech.
+- Commit de los cambios del día (aún sin confirmar en git).
+
+> Sesión cerrada el 6 de octubre de 2026 a las 10:00 p. m.
+> — **Saoto**
